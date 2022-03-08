@@ -1,1 +1,6 @@
 defaultNamespace: fuseml-installer
+helm:
+  values:
+    systemDomain: example.com
+    extensions.mlflow: true
+    extensions.kserve: true
