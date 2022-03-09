@@ -1,4 +1,6 @@
 defaultNamespace: cattle-gatekeeper-system
+dependsOn:
+  - name: gatekeeper-crds-gatekeeper-crd 
 diff:
   comparePatches:
   - apiVersion: apps/v1
