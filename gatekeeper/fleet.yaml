@@ -32,4 +32,4 @@ helm:
       requests:
         cpu: 10m
 dependsOn:
-  - name: core-bundles-gatekeeper-crd
+  - name: gatekeeper-crds-gatekeeper-crd
