@@ -31,3 +31,5 @@ helm:
     resources:
       requests:
         cpu: 10m
+dependsOn:
+  - name: gatekeeper-crds-gatekeeper-crd
